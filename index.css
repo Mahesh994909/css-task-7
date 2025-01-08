@@ -1,0 +1,61 @@
+.main{
+    border: 2px solid black;
+   display: flex; 
+   flex-direction: column;
+   gap: 10px;
+   padding: 10px;
+}
+ .div1,.div2,.div3{
+    border: 2px  solid black;
+
+ }
+ .div1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 15px;
+ }
+ .div1 div{
+    border: 2px solid rgb(36, 191, 142);
+    height: 70px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: #de4e4e;
+ }
+ .div2{
+    display: flex;
+    padding: 10px;
+ }
+ .div2 div{
+    border: 2px solid rgb(40, 185, 90);
+    width: 100px;
+    background-color: rgb(32, 246, 246);
+    border-radius: 10px;
+
+ }
+ .div2-2{
+    flex-grow: 1;
+ }
+ .div3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 15px;
+
+ }
+ .div3 div{
+    border: 2px solid rgb(231, 9, 9);
+    height: 70px;
+    width: 150px;
+    background-color: rgb(143, 215, 119);
+    border-radius: 15px;
+  
+ }
+
+ .div2{
+    height: 250px;
+    gap: 10px;
+    flex-wrap: wrap;
+ }
